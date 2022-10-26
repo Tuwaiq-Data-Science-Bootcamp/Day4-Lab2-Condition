@@ -9,3 +9,15 @@ You want to recommend a movie to a friend based on the rating and popularity. To
   - Else if the movie rating is 3 or greater and the popularity is greater than 70, print "I recommended it, It is good".
   - Else if the movie rating is 2 or less and the popularity is greater than 60, print "You should check it out!".
   - Else the movie rating is 2 or less and the popularity is less than 50, print "Don't watch it, It is a waste of time".
+
+movie = 'Smile'
+movieRate = 3
+popularityScore = 72.65
+if (movieRate >= 4 and popularityScore > 80):
+    print ("Highly recommended")
+elif (movieRate >= 3 and popularityScore > 70):
+    print ("I recommended it, It is good")
+elif (movieRate <= 2 and popularityScore > 60):
+    print ("You should check it out!")
+else:
+    print ("Don't watch it, It is a waste of time")
